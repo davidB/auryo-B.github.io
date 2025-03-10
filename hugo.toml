@@ -67,7 +67,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fab fa-github"
-link = "https://github.com/tylersayshi"
+link = "https://github.com/auryo-B"
 
 [[params.social]]
 icon = "fab fa-steam"
@@ -75,11 +75,7 @@ link = "https://steamcommunity.com/profiles/76561199143071595/"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:guster@burton.com"
-
-[[params.social]]
-icon = "fab fa-medium"
-link = "https://medium.com/@gusburton"
+link = "mailto:auryoperso+fromportfolio@gmail.com"
 
 contentDir = "content/english"
 weight = 1
