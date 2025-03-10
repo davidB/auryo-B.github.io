@@ -51,17 +51,14 @@ skill:
   title: 'SOME SKILLS'
   showpercent: false
   skill_list:
-    - name: 'React'
-      percentage: '85%'
+    - name: 'Communcation'
+      percentage: '50%'
 
-    - name: 'Detecting'
-      percentage: '93%'
+    - name: 'English'
+      percentage: '75%'
 
-    - name: 'Selling'
-      percentage: '25%'
-
-    - name: 'Yelling'
-      percentage: '100%'
+    - name: 'Unreal Engine'
+      percentage: '5%'
 
 ######################### funfacts #############################3
 funfacts:
@@ -72,10 +69,10 @@ funfacts:
       count: '2'
 
     - name: 'Play Time'
-      image: 'images/icons/web-development.png'
+      image: 'images/icons/game-icons--gamepad.svg'
       count: '13100'
 
-    - name: 'USELESS ROW OF ICONS'
+    - name: 'USELESS SISTER'
       image: 'images/icons/happy.png'
       count: '1'
 
@@ -84,6 +81,20 @@ portfolio:
   enable: true
   title: 'MY WORK'
   portfolio_list:
+    - name: Hugo
+      image: 'images/portfolio/hugo.png'
+      url: posts/gamejam2025
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Hugo Themes
+      image: 'images/portfolio/hugothemes.png'
+      url: https://gohugo.io
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Just A Design
+      image: 'images/portfolio/design.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    
     - name: Hugo
       image: 'images/portfolio/hugo.png'
       url: posts/gamejam2025

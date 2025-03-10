@@ -70,8 +70,8 @@ icon = "fab fa-github"
 link = "https://github.com/tylersayshi"
 
 [[params.social]]
-icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+icon = "fab fa-steam"
+link = "https://steamcommunity.com/profiles/76561199143071595/"
 
 [[params.social]]
 icon = "fas fa-envelope"
