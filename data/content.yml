@@ -73,7 +73,7 @@ funfacts:
 
     - name: 'Play Time'
       image: 'images/icons/web-development.png'
-      count: '+13 100 H'
+      count: '13100'
 
     - name: 'USELESS ROW OF ICONS'
       image: 'images/icons/happy.png'
