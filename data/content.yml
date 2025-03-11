@@ -93,11 +93,19 @@ portfolio:
         and I think to be a great game design
         I need to understand how the engine the developers use to work efficiently.
 
-    - name: Project in IUT
-      image: 'images/portfolio/design.png'
+    - name: Game Jam - Music of Honor
+      image: 'images/portfolio/screenshot_musicofhonor_home.png'
       description: |
-        In IUT I did multiple projects such as database (creation, management, interrogation),
-        web development (HTML, CSS), programming (C++, Java, ASSEMBLY), UI/UX design.
+        During a **24 hours** IUT Game Jam in 2025, with a team of 6, we created the game "Music Of Honor"
+        , powered by [Godot Engine 4](https://godotengine.org/).
+
+        {{< youtube Q54SA_4Mvog >}}
+
+    # - name: Project in IUT
+    #   image: 'images/portfolio/design.png'
+    #   description: |
+    #     In IUT I did multiple projects such as database (creation, management, interrogation),
+    #     web development (HTML, CSS), programming (C++, Java, ASSEMBLY), UI/UX design.
 
     - name: Last Project of High-School
       image: 'images/portfolio/lockerjdb.png'
