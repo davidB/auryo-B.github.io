@@ -55,8 +55,8 @@ copyright = "Copyright Burton Guster &copy;"
 # Meta data
 description = "Personal Portfolio"
 author = "Ryowen Bernard"
-logo_light = "images/logo.svg"
-logo_dark = "images/logo-dark.svg"
+logo_light = "images/logot.svg"
+logo_dark = "images/logo-darkt.svg"
 
 # Preloader
 [params.preloader]
