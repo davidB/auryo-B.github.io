@@ -21,9 +21,9 @@ about:
   content: Hi, thank you for taking a look around my portfolio. If you have any questions feel free to reach out on [Github, or by email](#contact)!
   button:
     enable: true
-    label: 'MY RESUME'
-    link: https://docs.google.com/document/d/1EtVNxBe-z-XSYRxNYx6I8dy1MIjdH19L2cndxu0bBao/edit?usp=sharing
-    icon: 'fa6-regular:file-lines'
+    label: 'DOWNLOAD MY RESUME'
+    link: '/static/CV_RyowenBernard_2025-03.pdf'
+    icon: 'fa-download'
 
 ###########################3 Experience ##############################
 experience:
@@ -41,9 +41,15 @@ experience:
       content: I get contacted by Ubisoft to test game or game features in development for unrealesed games or updates.
 
     - name: Student
-      company: High-School Jehand de Beauce
+      company: High-School Jehan de Beauce
       duration: '2021-2024'
-      content: 1st year General formation, 2nd year STI2D, 3rd year STI2D SIN. 
+      content: 1st year General formation, 2nd year STI2D, 3rd year STI2D SIN.
+
+    - name: Video Game Player
+      # company:
+      duration: '2013-Current'
+      content: Video games on PC, Tablet, PlayStation 2, Nintendo Wii, Occulus Quest 1
+
 ############################### Skill #################################
 skill:
   enable: true
@@ -67,7 +73,7 @@ funfacts:
       image: 'images/icons/coffee.png'
       count: '50'
 
-    - name: 'Play Time'
+    - name: 'Hours'
       image: 'images/icons/game-icons--gamepad.svg'
       count: '13100'
 
