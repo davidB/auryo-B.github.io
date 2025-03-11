@@ -23,7 +23,7 @@ about:
     enable: true
     label: 'MY RESUME'
     link: https://docs.google.com/document/d/1EtVNxBe-z-XSYRxNYx6I8dy1MIjdH19L2cndxu0bBao/edit?usp=sharing
-    icon: 'fa-download'
+    icon: 'fa-eye' # 'fa-download'
 
 ###########################3 Experience ##############################
 experience:
