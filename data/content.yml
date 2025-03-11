@@ -21,8 +21,8 @@ about:
   content: Hi, thank you for taking a look around my portfolio. If you have any questions feel free to reach out on [Github, or by email](#contact)!
   button:
     enable: true
-    label: 'DOWNLOAD MY RESUME'
-    link: #
+    label: 'MY RESUME'
+    link: https://docs.google.com/document/d/1EtVNxBe-z-XSYRxNYx6I8dy1MIjdH19L2cndxu0bBao/edit?usp=sharing
     icon: 'fa-download'
 
 ###########################3 Experience ##############################
