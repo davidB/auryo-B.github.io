@@ -1,17 +1,17 @@
 ########################## hero area ##########################
 hero:
-  title: "Portfolio of a"
+  title: 'Portfolio of a'
 
   # animated text loop
   occupations:
-    - 'Student of IUT d''Orsay'
-    - 'Player'
-    - 'Creative mind'
+    - Student of IUT d'Orsay
+    - Wannabe Game Designer
+    - Gamer
 
   # hero background image
   bg_image: 'images/background.png'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/background_small.jpg'
 
 ########################### About ##################################
 about:
@@ -22,7 +22,7 @@ about:
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
-    link: '/static/CV_RyowenBernard_2025-03.pdf'
+    link: 'CV_RyowenBernard_2025-03.pdf'
     icon: 'fa-download'
 
 ###########################3 Experience ##############################
@@ -56,7 +56,7 @@ skill:
   title: 'SOME SKILLS'
   showpercent: false
   skill_list:
-    - name: 'Communcation'
+    - name: 'Teamwork'
       percentage: '50%'
 
     - name: 'English'
@@ -65,21 +65,24 @@ skill:
     - name: 'Unreal Engine'
       percentage: '5%'
 
+    - name: 'Programmation'
+      percentage: '15%'
+
 ######################### funfacts #############################3
 funfacts:
   enable: true
   funfacts_list:
     - name: 'Lego Build'
-      image: 'images/icons/coffee.png'
+      image: 'images/icons/ph--lego-light.svg'
       count: '50'
 
-    - name: 'Hours'
+    - name: 'Hours since 2020'
       image: 'images/icons/game-icons--gamepad.svg'
       count: '13100'
 
-    - name: 'USELESS SIBLING'
-      image: 'images/icons/happy.png'
-      count: '1'
+    - name: 'Min listening to music (2024)'
+      image: 'images/icons/icon-park-outline--headset.svg'
+      count: '103000'
 
 ############################# portfolio ################################
 portfolio:
@@ -91,22 +94,35 @@ portfolio:
       url: https://docs.google.com/document/d/1B47WdNsB7u8XSO52WBrWcrW_UyagzB_SSD8hy79OIa8/edit?usp=sharing
       description: |
         It's the first personnal game project I have started (work in progress).
-        If I have to describe it by one and only one word, it will be "ambition".
-        I think to made this project in Unreal Engine, for multiple reasons such as:
-        it becomes one of the most used game engine in the industry,
-        and I think to be a great game design
-        I need to understand how the engine the developers use to work efficiently.
+        The "why" of this project is beacause I want to learn how a game is made, on every aspect and exeperience it myself.
+        
+        For this project I have 3 objectives, one is designing, modeling, riging 2 characters, two is making a demo level (primary mechanics, setting the mood, 
+        introducing the game to see if people like it), and three is making a complete game.
+
+        For now I am working on the game design especially the stroy and charaters design.
+
     
     - name: GameJam - Music of Honor
       image: 'images/portfolio/screenshot_musicofhonor_home.png'
       description: |
         I did a game jam in IUT in 2025
         It was a game, I did with a team of 6, during **30 hours** with [Godot Engine 4](https://godotengine.org/).
-        {{< youtube Q54SA_4Mvog >}}
+        In this project I was in charge of the game design, especially in the game mechanics and formulas.
 
-    # - name: Project in IUT
-    #   image: 'images/portfolio/design.png'
-    #   description: In IUT I did multiple projects such as database (creation, management, interrogation), web development (HTML, CSS), programming (C++, Java, ASSEMBLY), UI/UX design.
+        The goal is to set a record, the score calculated with the time you survive. You survive by dodging ennemies, picking up power-ups.
+        The longer you survive the faster is the ennemies, the music rythm, animations and player speed.
+        
+        {{< youtube id=Q54SA_4Mvog class=video allowFullScreen=false >}}
+        
+        [Download from itch.io](https://xeradse.itch.io/music-of-honor)
+        
+        
+
+    - name: S102 - IUT Project
+      image: 'images/portfolio/screenshot_s102.png'
+      description: |
+        It was a project in pair of 2. Where we create a 2D game with SDL library.
+        The goal was to collected all coins in the level without being hit by the monsters.
     
     - name: Last Project of High-School
       image: 'images/portfolio/lockerjdb.png'
