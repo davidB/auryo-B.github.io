@@ -1,10 +1,10 @@
 ########################## hero area ##########################
 hero:
-  title: "Portfolio of a"
+  title: 'Portfolio of a'
 
   # animated text loop
   occupations:
-    - 'Student of IUT d''Orsay'
+    - "Student of IUT d'Orsay"
     - 'Player'
     - 'Creative mind'
 
@@ -43,7 +43,7 @@ experience:
     - name: Student
       company: High-School Jehand de Beauce
       duration: '2021-2024'
-      content: 1st year General formation, 2nd year STI2D, 3rd year STI2D SIN. 
+      content: 1st year General formation, 2nd year STI2D, 3rd year STI2D SIN.
 ############################### Skill #################################
 skill:
   enable: true
@@ -83,14 +83,27 @@ portfolio:
     - name: Project Parabellum
       image: 'images/portfolio/lhlogotext.png'
       url: https://docs.google.com/document/d/1B47WdNsB7u8XSO52WBrWcrW_UyagzB_SSD8hy79OIa8/edit?usp=sharing
-      description: It's the first personnal project I have started and probably the last one, if I do things according my thoughts. If I have to describe it by one and only one word, it will be "ambition". I think to made this project in Unreal Engine, for multiple reason such as, it becomes one of the most used game engine in the industry, and I think to be a great game design I need to understand how the engine the developers use to work efficiently.
-    
+      description: |
+        It's the first personnal project I have started and probably the last one,
+        if I do things according my thoughts.
+        If I have to describe it by one and only one word, it will be "ambition".
+        I think to made this project in Unreal Engine, for multiple reason such as,
+        it becomes one of the most used game engine in the industry,
+        and I think to be a great game design.
+        I need to understand how the engine the developers use to work efficiently.
+
     - name: Project in IUT
       image: 'images/portfolio/design.png'
-      description: In IUT I did multiple projects such as database (creation, management, interrogation), web development (HTML, CSS), programming (C++, Java, ASSEMBLY), UI/UX design.
-    
+      description: |
+        In IUT I did multiple projects such as database (creation, management, interrogation),
+        web development (HTML, CSS), programming (C++, Java, ASSEMBLY), UI/UX design.
+
     - name: Last Project of High-School
       image: 'images/portfolio/lockerjdb.png'
-      description: It was a project I did with a team of 4 people. A classmate and I were in charge of making a software, mobile app to be more precise, that would allowed the user to claim a locker in the school and open it with a QR code. The QR code would be generate by the app. After some research to find a software taht would be efficient and easy to use, we found Flutter. We used it and the screenshot you see on the left is the stroyboard of the pages we made.
-
-    
+      description: |
+        It was a project I did with a team of 4 people.
+        A classmate and I were in charge of making a software, mobile app to be more precise,
+        that would allowed the user to claim a locker in the school and open it with a QR code.
+        The QR code would be generate by the app. After some research to find a software
+        taht would be efficient and easy to use, we found Flutter.
+        We used it and the screenshot you see on the left is the stroyboard of the pages we made.
