@@ -51,7 +51,7 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-copyright = "Copyright Burton Guster &copy;"
+copyright = "Powered by [Hugo](https://gohugo.io/), Themed with [Port-Hugo](https://themes.gohugo.io/themes/port-hugo/)"
 # Meta data
 description = "Personal Portfolio"
 author = "Ryowen Bernard"
