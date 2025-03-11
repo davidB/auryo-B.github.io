@@ -6,10 +6,10 @@ hero:
   occupations:
     - 'Student of IUT d''Orsay'
     - 'Player'
-    - 'Conqueror of lost land'
+    - 'Creative mind'
 
   # hero background image
-  bg_image: 'images/background.jpg'
+  bg_image: 'images/background.png'
   # optional mobile breakpoint background
   mobile_bg_image: 'images/gus_small.jpg'
 
@@ -84,12 +84,13 @@ portfolio:
       image: 'images/portfolio/lhlogotext.png'
       url: https://docs.google.com/document/d/1B47WdNsB7u8XSO52WBrWcrW_UyagzB_SSD8hy79OIa8/edit?usp=sharing
       description: It's the first personnal project I have started and probably the last one, if i do things according my thoughts. If I have to describe it by one and only one word, it will be "ambition". I think to made this project in Unreal Engine, for multiple reason such as, it becomes one of the most used game engine in the industry, and I think to be a great game design I need to understand how the engine the developers use to work efficiently.
-
+    
+    - name: Project in IUT
+      image: 'images/portfolio/design.png'
+      description: In IUT I did multiple projects such as database (creation, management, interrogation), web development (HTML, CSS), programming (C++, Java, ASSEMBLY), UI/UX design.
+    
     - name: Last Project of High-School
       image: 'images/portfolio/lockerjdb.png'
-      url:
       description: It was a project I did with a team of 4 people. A classmate and I were in charge of making a software, mobile app to be more precise, that would allowed the user to claim a locker in the school and open it with a QR code. The QR code would be generate by the app. After some research to find a software taht would be efficient and easy to use, we found Flutter. We used it and the screenshot you see on the left is the stroyboard of the pages we made.
 
-    - name: Just A Design
-      image: 'images/portfolio/design.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    

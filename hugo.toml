@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://auryo-b.github.io/"
-title = "Ryowen Bernard Online Portfolio"
+title = "Online Portfolio"
 theme = "myport-hugo"
 
 ############################# Plugins ##############################
@@ -55,8 +55,8 @@ copyright = "Copyright Burton Guster &copy;"
 # Meta data
 description = "Personal Portfolio"
 author = "Ryowen Bernard"
-logo_light = "images/logo.svg"
-logo_dark = "images/logo-dark.svg"
+logo_light = "images/logolight.svg"
+logo_dark = "images/logodark.svg"
 
 # Preloader
 [params.preloader]
