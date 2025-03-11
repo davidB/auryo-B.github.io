@@ -51,12 +51,12 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-copyright = "Copyright Burton Guster &copy;"
+copyright = "Powered by [Hugo](https://gohugo.io/), Themed with [Port-Hugo](https://themes.gohugo.io/themes/port-hugo/)"
 # Meta data
 description = "Personal Portfolio"
 author = "Ryowen Bernard"
-logo_light = "images/logo-dark.svg"
-logo_dark = "images/logo.svg"
+logo_light = "images/logo.svg"
+logo_dark = "images/logo-dark.svg"
 
 # Preloader
 [params.preloader]
