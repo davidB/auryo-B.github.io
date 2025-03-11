@@ -1,6 +1,6 @@
 ########################## hero area ##########################
 hero:
-  title: "Portfolio"
+  title: "Portfolio of a"
 
   # animated text loop
   occupations:
@@ -43,7 +43,7 @@ experience:
     - name: Student
       company: High-School Jehand de Beauce
       duration: '2021-2024'
-      content: For the first year i followed a general formation and then I went in STI2D for the next two years. Where in the last year I specialized in SIN.
+      content: 1st year General formation, 2nd year STI2D, 3rd year STI2D SIN. 
 ############################### Skill #################################
 skill:
   enable: true
@@ -83,7 +83,7 @@ portfolio:
     - name: Project Parabellum
       image: 'images/portfolio/lhlogotext.png'
       url: https://docs.google.com/document/d/1B47WdNsB7u8XSO52WBrWcrW_UyagzB_SSD8hy79OIa8/edit?usp=sharing
-      description: It's the first personnal project I have started and probably the last one, if i do things according my thoughts. If I have to describe it by one and only one word, it will be "ambition". I think to made this project in Unreal Engine, for multiple reason such as, it becomes one of the most used game engine in the industry, and I think to be a great game design I need to understand how the engine the developers use to work efficiently.
+      description: It's the first personnal project I have started and probably the last one, if I do things according my thoughts. If I have to describe it by one and only one word, it will be "ambition". I think to made this project in Unreal Engine, for multiple reason such as, it becomes one of the most used game engine in the industry, and I think to be a great game design I need to understand how the engine the developers use to work efficiently.
     
     - name: Project in IUT
       image: 'images/portfolio/design.png'
