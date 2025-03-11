@@ -33,10 +33,10 @@ link = "plugins/hugrid/hugrid.min.js"
 ############################## navigation ###############################
 
 # main menu
-[[menu.main]]
-name = "Home"
-URL = "#home"
-weight = 1
+# [[menu.main]]
+# name = "Home"
+# URL = "#home"
+# weight = 1
 
 [[menu.main]]
 name = "About me"
@@ -55,7 +55,7 @@ copyright = "Powered by [Hugo](https://gohugo.io/), Themed with [Port-Hugo](http
 # Meta data
 description = "Personal Portfolio"
 author = "Ryowen Bernard"
-logo_light = "images/logo-dark.svg"
+logo_light = "images/logo.svg" # the same light logo on both light and dark background
 logo_dark = "images/logo.svg"
 
 # Preloader
