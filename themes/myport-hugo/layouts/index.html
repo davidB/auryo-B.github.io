@@ -9,12 +9,7 @@
     {{ if .Site.Data.content.about.enable }} {{ with .Site.Data.content.about }}
     <div class="row about-me-holder">
       <div
-        class="
-          col-lg-6 col-md-6 col-sm-6
-          about-me-text
-          d-flex
-          align-self-center
-        "
+        class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center"
       >
         <div class="text-holder">
           <h1>{{ .title | safeHTML }}</h1>
@@ -45,22 +40,20 @@
       <div class="col-lg-6 col-sm-6 col-11 experience">
         <h2>{{ .title }}</h2>
         <ul class="experience-chart">
-          {{ range .experience_list }}
-          {{ if not (eq .enable false) }}
-            <li>
-              <div class="single-experience">
-                <h3>{{ .name | markdownify }}</h3>
-                {{ with .company }}
-                <span>{{ . | markdownify }} |</span>
-                {{ end }} {{ with .duration }}
-                <span>{{ . | markdownify }}</span>
-                {{ end }} {{ with .content }}
-                <p>{{ . | markdownify }}</p>
-                {{ end }}
-              </div>
-            </li>
-          {{ end }}
-          {{ end }}
+          {{ range .experience_list }} {{ if not (eq .enable false) }}
+          <li>
+            <div class="single-experience">
+              <h3>{{ .name | markdownify }}</h3>
+              {{ with .company }}
+              <span>{{ . | markdownify }} |</span>
+              {{ end }} {{ with .duration }}
+              <span>{{ . | markdownify }}</span>
+              {{ end }} {{ with .content }}
+              <p>{{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          </li>
+          {{ end }} {{ end }}
         </ul>
       </div>
       {{ end }} {{ end }} {{ if .Site.Data.content.skill.enable }} {{ with
@@ -118,9 +111,9 @@
         $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
         "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
         <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
+          <div id="description-{{ $parsed_name | urlize }}" class="hidden">
             {{ .description | markdownify }}
-          </p>
+          </div>
           <a
             href="{{ .url }}"
             data-largesrc="{{ $big_image.RelPermalink }}"
