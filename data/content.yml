@@ -68,7 +68,7 @@ funfacts:
       image: 'images/icons/coffee.png'
       count: '2'
 
-    - name: 'Play Time'
+    - name: 'Hours'
       image: 'images/icons/game-icons--gamepad.svg'
       count: '13100'
 
