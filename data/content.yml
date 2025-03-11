@@ -23,7 +23,7 @@ about:
     enable: true
     label: 'MY RESUME'
     link: https://docs.google.com/document/d/1EtVNxBe-z-XSYRxNYx6I8dy1MIjdH19L2cndxu0bBao/edit?usp=sharing
-    icon: 'fa-file-lines'
+    icon: 'fa6-regular:file-lines'
 
 ###########################3 Experience ##############################
 experience:
@@ -63,9 +63,9 @@ skill:
 funfacts:
   enable: true
   funfacts_list:
-    - name: 'CUPS PER DAY'
+    - name: 'Lego Build'
       image: 'images/icons/coffee.png'
-      count: '2'
+      count: '50'
 
     - name: 'Play Time'
       image: 'images/icons/game-icons--gamepad.svg'
@@ -95,7 +95,7 @@ portfolio:
       image: 'images/portfolio/screenshot_musicofhonor_home.png'
       description: |
         I did a game jam in IUT in 2025
-        It was a game, I did with a team of 6, during **24 hours** with [Godot Engine 4](https://godotengine.org/).
+        It was a game, I did with a team of 6, during **30 hours** with [Godot Engine 4](https://godotengine.org/).
         {{< youtube Q54SA_4Mvog >}}
 
     # - name: Project in IUT
